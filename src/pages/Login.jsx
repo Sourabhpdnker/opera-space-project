@@ -62,12 +62,12 @@ export default function Login() {
 
             <div className="flex justify-between">
               <Link to="/professor-blood-group">
-                <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-12 rounded-md w-auto">
+                <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-12 rounded-md w-auto shadow-md">
                   Professor
                 </button>
               </Link>
               <Link to="/student-blood-group">
-                <button className=" bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-12 rounded-md w-auto ">
+                <button className=" bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-12 rounded-md w-auto shadow-md ">
                   Student
                 </button>
               </Link>
